@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-29T01:49:39.902Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="I_y6kXBsK9z8lYLIp9bV" version="21.3.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-30T05:18:47.568Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="5M0ghmEJk2wP_NPtlgBz" version="21.3.5" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1182" dy="716" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -157,11 +157,6 @@
         <mxCell id="duncpzKBdpz41MOlvivD-32" value="数据存储目录:/data8/wiki_20230321/latest-all.json.bz2" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="duncpzKBdpz41MOlvivD-24">
           <mxGeometry y="83" width="200" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="duncpzKBdpz41MOlvivD-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="duncpzKBdpz41MOlvivD-24" source="duncpzKBdpz41MOlvivD-33">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="480" y="153" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="duncpzKBdpz41MOlvivD-33" value="数据处理程序:[1-1] wiki原始文件到ck_封库.py" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="duncpzKBdpz41MOlvivD-24">
           <mxGeometry y="139" width="370" height="28" as="geometry" />
         </mxCell>
@@ -205,10 +200,10 @@
         <mxCell id="duncpzKBdpz41MOlvivD-45" value="fr:页面全量数据,json字符串" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="duncpzKBdpz41MOlvivD-42">
           <mxGeometry y="78" width="160" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="duncpzKBdpz41MOlvivD-51" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="duncpzKBdpz41MOlvivD-51" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="duncpzKBdpz41MOlvivD-33" target="duncpzKBdpz41MOlvivD-42">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="200" y="410" as="sourcePoint" />
-            <mxPoint x="250" y="360" as="targetPoint" />
+            <mxPoint x="640" y="320" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
