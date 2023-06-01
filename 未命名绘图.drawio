@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-01T06:31:38.491Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="XVgvqj0m2lxVU0mKRWn1" version="21.3.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-01T06:38:16.601Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="1sINt_OcsS1mGNaLEK1p" version="21.3.5" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="989" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -33,7 +33,7 @@
           <mxGeometry x="-1" y="109" width="361" height="26" as="geometry" />
         </mxCell>
         <mxCell id="duncpzKBdpz41MOlvivD-36" value="dbpedia数据来源" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="duncpzKBdpz41MOlvivD-23">
-          <mxGeometry x="39" y="1050" width="371" height="900" as="geometry">
+          <mxGeometry x="39" y="1050" width="371" height="1390" as="geometry">
             <mxRectangle x="70" y="64" width="140" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -85,8 +85,17 @@
             <mxPoint x="372" y="311" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="duncpzKBdpz41MOlvivD-382" value="数据存储目录:db_data/long-abstracts_lang=zh.ttl.bz2" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="duncpzKBdpz41MOlvivD-36">
+          <mxGeometry x="0.5" y="1000" width="370" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="duncpzKBdpz41MOlvivD-383" value="数据存储目录:db_data/short-abstracts_lang=en.ttl.bz2" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="duncpzKBdpz41MOlvivD-36">
+          <mxGeometry y="1026" width="370" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="duncpzKBdpz41MOlvivD-384" value="数据存储目录:db_data/short-abstracts_lang=zh.ttl.bz2" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="duncpzKBdpz41MOlvivD-36">
+          <mxGeometry x="0.5" y="1050" width="370" height="26" as="geometry" />
+        </mxCell>
         <mxCell id="duncpzKBdpz41MOlvivD-302" value="wikipedia数据来源" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="duncpzKBdpz41MOlvivD-23">
-          <mxGeometry x="39" y="2210" width="370" height="170" as="geometry">
+          <mxGeometry x="39" y="2620" width="370" height="170" as="geometry">
             <mxRectangle x="70" y="64" width="140" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -808,18 +817,6 @@
         <mxCell id="duncpzKBdpz41MOlvivD-358" value="object_src:http://dbpedia.org/ontology/School" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="duncpzKBdpz41MOlvivD-351">
           <mxGeometry y="174" width="187" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="duncpzKBdpz41MOlvivD-359" value="" style="endArrow=none;html=1;rounded=0;exitX=-0.007;exitY=1.027;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="70" y="1579" as="sourcePoint" />
-            <mxPoint x="442" y="1577" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="duncpzKBdpz41MOlvivD-360" value="数据名称:实体类型表,一个实体对应多个分类" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="73" y="1583" width="308" height="21" as="geometry" />
-        </mxCell>
-        <mxCell id="duncpzKBdpz41MOlvivD-361" value="下载地址:" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="72" y="1604" width="200" height="21" as="geometry" />
-        </mxCell>
         <mxCell id="duncpzKBdpz41MOlvivD-362" value="数据存储目录:db_data/instance-types_transitive.ttl.bz2" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="70" y="1851" width="370" height="26" as="geometry" />
         </mxCell>
@@ -840,6 +837,68 @@
         </mxCell>
         <mxCell id="duncpzKBdpz41MOlvivD-366" value="下载地址:" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="71" y="1830" width="200" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="duncpzKBdpz41MOlvivD-367" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=-0.005;entryY=0.749;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="1830" as="sourcePoint" />
+            <mxPoint x="502" y="1830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="duncpzKBdpz41MOlvivD-368" value="                                       wiki_history.db_long_abstracts_lang_en(长短中英文描述数据)&#xa;" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="503" y="2040" width="187" height="200" as="geometry">
+            <mxRectangle x="1350" y="102" width="277" height="22" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="duncpzKBdpz41MOlvivD-369" value="subject:/Joe_Biden" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="duncpzKBdpz41MOlvivD-368">
+          <mxGeometry y="26" width="187" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="duncpzKBdpz41MOlvivD-370" value="predicate:/abstract" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="duncpzKBdpz41MOlvivD-368">
+          <mxGeometry y="52" width="187" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="duncpzKBdpz41MOlvivD-371" value="object:/; born November 20, 1942) is an American politician who is the 46th and current president of the United States. A member of the Democratic Party, he previously served as the 47th vice president from 2009 to 2017 under President Barack Obama, and represented Delaware in the United States Senate from 1973 to 2009. Biden was born and raised in Scranton, Pennsylvania, and moved with his family to Delaware in 1953 when he was ten years old. He studied at the University of Delaware before earning his law degree from Syracuse University. He was elected to the New Castle County Council in 1970 and became the sixth-youngest senator in U.S. history after he was elected to the United States Senate from Delaware in 1972, at age 29. Biden was the chair or ranking member of the Senate Foreign Relations Committee for 12 years. He also chaired the Senate Judiciary Committee from 1987 to 1995; led the effort to pass the Violent Crime Control and Law Enforcement Act and the Violence Against Women Act; and oversaw six U.S. Supreme Court confirmation hearings, including the contentious hearings for Robert Bork and Clarence Thomas. Biden ran unsuccessfully for the Democratic presidential nomination in 1988 and 2008, before becoming Obama&#39;s vice president after they won the 2008 presidential election. During his two terms as vice president, Biden frequently represented the administration in negotiations with congressional Republicans and was a close counselor to President Obama. Biden and his running mate, Kamala Harris, defeated incumbent Donald Trump in the 2020 presidential election. Upon inauguration, he became the oldest president in U.S. history and the first to have a female vice president. Biden signed the American Rescue Plan Act to help the U.S. recover from the COVID-19 pandemic and subsequent recession. He proposed the American Jobs Plan, aspects of which were incorporated into the bipartisan Infrastructure Investment and Jobs Act. He proposed the American Families Plan, which was merged with other aspects of the American Jobs Plan into the proposed Build Back Better Act. After facing opposition in the Senate, the Build Back Better Act&#39;s size was reduced and it was comprehensively reworked into the Inflation Reduction Act of 2022, covering deficit reduction, climate change, healthcare, and tax reform. Biden appointed Ketanji Brown Jackson to the Supreme Court. In foreign policy, he restored the U.S. into the Paris Agreement on climate change. He completed the withdrawal of U.S. troops from Afghanistan, during which the Afghan government collapsed and the Taliban seized control. He responded to the 2022 Russian invasion of Ukraine by imposing sanctions on Russia and authorizing foreign aid and weapons shipments to Ukraine." style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="duncpzKBdpz41MOlvivD-368">
+          <mxGeometry y="78" width="187" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="duncpzKBdpz41MOlvivD-372" value="object_type:/resource" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="duncpzKBdpz41MOlvivD-368">
+          <mxGeometry y="102" width="187" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="duncpzKBdpz41MOlvivD-373" value="subject_src:http://dbpedia.org/resource/Joe_Biden" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="duncpzKBdpz41MOlvivD-368">
+          <mxGeometry y="126" width="187" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="duncpzKBdpz41MOlvivD-374" value="predicate_src:http://dbpedia.org/ontology/abstract" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="duncpzKBdpz41MOlvivD-368">
+          <mxGeometry y="150" width="187" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="duncpzKBdpz41MOlvivD-375" value="object_src:Joseph Robinette Biden Jr. (/ˈbaɪdən/; born November 20, 1942) is an American politician who is the 46th and current president of the United States. A member of the Democratic Party, he previously served as the 47th vice president from 2009 to 2017 under President Barack Obama, and represented Delaware in the United States Senate from 1973 to 2009. Biden was born and raised in Scranton, Pennsylvania, and moved with his family to Delaware in 1953 when he was ten years old. He studied at the University of Delaware before earning his law degree from Syracuse University. He was elected to the New Castle County Council in 1970 and became the sixth-youngest senator in U.S. history after he was elected to the United States Senate from Delaware in 1972, at age 29. Biden was the chair or ranking member of the Senate Foreign Relations Committee for 12 years. He also chaired the Senate Judiciary Committee from 1987 to 1995; led the effort to pass the Violent Crime Control and Law Enforcement Act and the Violence Against Women Act; and oversaw six U.S. Supreme Court confirmation hearings, including the contentious hearings for Robert Bork and Clarence Thomas. Biden ran unsuccessfully for the Democratic presidential nomination in 1988 and 2008, before becoming Obama&#39;s vice president after they won the 2008 presidential election. During his two terms as vice president, Biden frequently represented the administration in negotiations with congressional Republicans and was a close counselor to President Obama. Biden and his running mate, Kamala Harris, defeated incumbent Donald Trump in the 2020 presidential election. Upon inauguration, he became the oldest president in U.S. history and the first to have a female vice president. Biden signed the American Rescue Plan Act to help the U.S. recover from the COVID-19 pandemic and subsequent recession. He proposed the American Jobs Plan, aspects of which were incorporated into the bipartisan Infrastructure Investment and Jobs Act. He proposed the American Families Plan, which was merged with other aspects of the American Jobs Plan into the proposed Build Back Better Act. After facing opposition in the Senate, the Build Back Better Act&#39;s size was reduced and it was comprehensively reworked into the Inflation Reduction Act of 2022, covering deficit reduction, climate change, healthcare, and tax reform. Biden appointed Ketanji Brown Jackson to the Supreme Court. In foreign policy, he restored the U.S. into the Paris Agreement on climate change. He completed the withdrawal of U.S. troops from Afghanistan, during which the Afghan government collapsed and the Taliban seized control. He responded to the 2022 Russian invasion of Ukraine by imposing sanctions on Russia and authorizing foreign aid and weapons shipments to Ukraine." style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="duncpzKBdpz41MOlvivD-368">
+          <mxGeometry y="174" width="187" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="duncpzKBdpz41MOlvivD-376" value="数据存储目录:db_data/long-abstracts_lang=en.ttl.bz2" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="70" y="2106" width="370" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="duncpzKBdpz41MOlvivD-377" value="" style="endArrow=none;html=1;rounded=0;exitX=-0.007;exitY=1.027;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="68" y="2206" as="sourcePoint" />
+            <mxPoint x="440" y="2204" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="250" y="2206" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="duncpzKBdpz41MOlvivD-378" value="" style="endArrow=none;html=1;rounded=0;exitX=-0.007;exitY=1.027;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="69" y="2060" as="sourcePoint" />
+            <mxPoint x="441" y="2058" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="duncpzKBdpz41MOlvivD-379" value="数据名称:实体类型表,一个实体对应多个分类" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="72" y="2064" width="308" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="duncpzKBdpz41MOlvivD-380" value="下载地址:" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="71" y="2085" width="200" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="duncpzKBdpz41MOlvivD-381" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=-0.005;entryY=0.749;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="2064" as="sourcePoint" />
+            <mxPoint x="502" y="2064" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
