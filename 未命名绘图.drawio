@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2023-06-01T02:03:17.210Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="6HnsF0RhELCDZes8jgup" version="21.3.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-01T02:05:32.495Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="uFRSXp15DNE4yJ_nLe8s" version="21.3.5" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1434" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="zkfFHV4jXpPFQw0GAbJ--0" value="Person" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="1992" y="420" width="160" height="138" as="geometry">
+          <mxGeometry x="2602" y="690" width="160" height="138" as="geometry">
             <mxRectangle x="655" y="120" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -25,7 +25,7 @@
           <mxGeometry y="112" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="zkfFHV4jXpPFQw0GAbJ--6" value="Student" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1" collapsed="1">
-          <mxGeometry x="1890" y="660" width="160" height="26" as="geometry">
+          <mxGeometry x="2500" y="930" width="160" height="26" as="geometry">
             <mxRectangle x="553" y="360" width="160" height="138" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -46,12 +46,12 @@
         </mxCell>
         <mxCell id="zkfFHV4jXpPFQw0GAbJ--12" value="" style="endArrow=block;endSize=10;endFill=0;shadow=0;strokeWidth=1;rounded=0;edgeStyle=elbowEdgeStyle;elbow=vertical;" parent="WIyWlLk6GJQsqaUBKTNV-1" target="zkfFHV4jXpPFQw0GAbJ--0" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="1972" y="660" as="sourcePoint" />
-            <mxPoint x="1972" y="503" as="targetPoint" />
+            <mxPoint x="2582" y="930" as="sourcePoint" />
+            <mxPoint x="2582" y="773" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="zkfFHV4jXpPFQw0GAbJ--13" value="Professor" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="2102" y="660" width="160" height="70" as="geometry">
+          <mxGeometry x="2712" y="930" width="160" height="70" as="geometry">
             <mxRectangle x="340" y="380" width="170" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -63,12 +63,12 @@
         </mxCell>
         <mxCell id="zkfFHV4jXpPFQw0GAbJ--16" value="" style="endArrow=block;endSize=10;endFill=0;shadow=0;strokeWidth=1;rounded=0;edgeStyle=elbowEdgeStyle;elbow=vertical;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zkfFHV4jXpPFQw0GAbJ--13" target="zkfFHV4jXpPFQw0GAbJ--0" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="1982" y="673" as="sourcePoint" />
-            <mxPoint x="2082" y="571" as="targetPoint" />
+            <mxPoint x="2592" y="943" as="sourcePoint" />
+            <mxPoint x="2692" y="841" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="zkfFHV4jXpPFQw0GAbJ--17" value="Address" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="2280" y="420" width="160" height="216" as="geometry">
+          <mxGeometry x="2890" y="690" width="160" height="216" as="geometry">
             <mxRectangle x="550" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -98,8 +98,8 @@
         </mxCell>
         <mxCell id="zkfFHV4jXpPFQw0GAbJ--26" value="" style="endArrow=open;shadow=0;strokeWidth=1;rounded=0;endFill=1;edgeStyle=elbowEdgeStyle;elbow=vertical;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zkfFHV4jXpPFQw0GAbJ--0" target="zkfFHV4jXpPFQw0GAbJ--17" edge="1">
           <mxGeometry x="0.5" y="41" relative="1" as="geometry">
-            <mxPoint x="2152" y="492" as="sourcePoint" />
-            <mxPoint x="2312" y="492" as="targetPoint" />
+            <mxPoint x="2762" y="762" as="sourcePoint" />
+            <mxPoint x="2922" y="762" as="targetPoint" />
             <mxPoint x="-40" y="32" as="offset" />
           </mxGeometry>
         </mxCell>
@@ -119,7 +119,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="duncpzKBdpz41MOlvivD-0" value="List" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1947" y="890" width="140" height="120" as="geometry">
+          <mxGeometry x="2557" y="1160" width="140" height="120" as="geometry">
             <mxRectangle x="668" y="591" width="60" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -133,7 +133,7 @@
           <mxGeometry y="90" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="duncpzKBdpz41MOlvivD-18" value="Label" style="html=1;whiteSpace=wrap;container=1;recursiveResize=0;collapsible=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1937" y="750" width="160" height="70" as="geometry" />
+          <mxGeometry x="2547" y="1020" width="160" height="70" as="geometry" />
         </mxCell>
         <mxCell id="duncpzKBdpz41MOlvivD-19" value="" style="triangle;html=1;whiteSpace=wrap;" vertex="1" parent="duncpzKBdpz41MOlvivD-18">
           <mxGeometry x="20" y="20" width="20" height="30" as="geometry" />
@@ -260,9 +260,9 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="duncpzKBdpz41MOlvivD-67" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="2002" y="534" width="160" height="8" as="geometry" />
+          <mxGeometry x="2612" y="804" width="160" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="duncpzKBdpz41MOlvivD-74" value="&lt;span style=&quot;font-size: 24px;&quot;&gt;wiki&amp;nbsp; 数据加工&lt;/span&gt;" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="duncpzKBdpz41MOlvivD-74" value="&lt;span style=&quot;font-size: 24px;&quot;&gt;wiki&amp;nbsp; 数据加工清洗&lt;/span&gt;" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="829" y="80" width="420" height="714" as="geometry">
             <mxRectangle x="30" y="295" width="70" height="270" as="alternateBounds" />
           </mxGeometry>
@@ -284,9 +284,9 @@
         <mxCell id="duncpzKBdpz41MOlvivD-116" value="数据生成:属性表,属性的属性表" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="duncpzKBdpz41MOlvivD-75">
           <mxGeometry y="110" width="370" height="28" as="geometry" />
         </mxCell>
-        <mxCell id="duncpzKBdpz41MOlvivD-88" value="                 wiki_history.wiki_claims_v7(属性表)&#xa;" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" collapsed="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1350" y="102" width="277" height="22" as="geometry">
-            <mxRectangle x="1350" y="102" width="170" height="448" as="alternateBounds" />
+        <mxCell id="duncpzKBdpz41MOlvivD-88" value="                 wiki_history.wiki_claims_v7(属性表)&#xa;" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1350" y="102" width="170" height="448" as="geometry">
+            <mxRectangle x="1350" y="102" width="277" height="22" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="duncpzKBdpz41MOlvivD-89" value="_id:id/例如Q6279,P31" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="duncpzKBdpz41MOlvivD-88">
@@ -365,6 +365,28 @@
             <mxPoint x="1210" y="110" as="sourcePoint" />
             <mxPoint x="1360" y="630" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="duncpzKBdpz41MOlvivD-137" value="&lt;span style=&quot;font-size: 24px;&quot;&gt;wikidata 结果表生成&lt;br&gt;&lt;/span&gt;" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1660" y="90" width="416" height="714" as="geometry">
+            <mxRectangle x="30" y="295" width="70" height="270" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="duncpzKBdpz41MOlvivD-138" value="拆解的属性表生成" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="duncpzKBdpz41MOlvivD-137">
+          <mxGeometry x="30" y="20" width="370" height="190" as="geometry">
+            <mxRectangle x="30" y="20" width="140" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="duncpzKBdpz41MOlvivD-139" value="数据处理程序:[2-1] 双属性表生成pool_ck_20230411.py" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="duncpzKBdpz41MOlvivD-138">
+          <mxGeometry y="30" width="370" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="duncpzKBdpz41MOlvivD-140" value="数据来源字段:claims" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="duncpzKBdpz41MOlvivD-138">
+          <mxGeometry y="58" width="370" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="duncpzKBdpz41MOlvivD-141" value="功能说明:拆解claims,拆成pid,完全复原内部所有字段" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="duncpzKBdpz41MOlvivD-138">
+          <mxGeometry y="86" width="370" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="duncpzKBdpz41MOlvivD-142" value="数据生成:属性表,属性的属性表" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="duncpzKBdpz41MOlvivD-138">
+          <mxGeometry y="110" width="370" height="28" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
