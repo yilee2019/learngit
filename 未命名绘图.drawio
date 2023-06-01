@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-01T03:40:30.552Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="tc_IJ6HzMGxKvVq-ErYi" version="21.3.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-01T05:55:49.644Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="Q38vi5xss9kA55vEUfxo" version="21.3.5" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1247" dy="692" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -410,7 +410,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="duncpzKBdpz41MOlvivD-232" value="&lt;span style=&quot;font-size: 24px;&quot;&gt;应用表生成&lt;br&gt;&lt;/span&gt;" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="2640" y="100" width="410" height="1010" as="geometry">
+          <mxGeometry x="2640" y="100" width="410" height="890" as="geometry">
             <mxRectangle x="1674" y="90" width="70" height="270" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -440,6 +440,20 @@
           <mxGeometry y="59" width="370" height="28" as="geometry" />
         </mxCell>
         <mxCell id="duncpzKBdpz41MOlvivD-279" value="数据来源:property  属性字典表&#xa;               item_property实体属性表" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="duncpzKBdpz41MOlvivD-276">
+          <mxGeometry y="87" width="370" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="duncpzKBdpz41MOlvivD-293" value="实体的类型可靠性分析" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="duncpzKBdpz41MOlvivD-232">
+          <mxGeometry x="38" y="660" width="370" height="140" as="geometry">
+            <mxRectangle x="30" y="20" width="140" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="duncpzKBdpz41MOlvivD-294" value="数据处理程序:[4-4]实体分类准确率生成code_0413.py" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="duncpzKBdpz41MOlvivD-293">
+          <mxGeometry y="30" width="370" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="duncpzKBdpz41MOlvivD-295" value="功能说明:生成实体分类得分" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="duncpzKBdpz41MOlvivD-293">
+          <mxGeometry y="59" width="370" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="duncpzKBdpz41MOlvivD-296" value="数据来源:item_classpro  类属性表&#xa;               item_property实体属性表" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="duncpzKBdpz41MOlvivD-293">
           <mxGeometry y="87" width="370" height="28" as="geometry" />
         </mxCell>
         <mxCell id="duncpzKBdpz41MOlvivD-249" value="             wiki_history.item_class(类属性表)" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -542,28 +556,43 @@
             <mxPoint x="3180" y="460" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="duncpzKBdpz41MOlvivD-281" value="             wiki_history.item_class_scorse()" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="duncpzKBdpz41MOlvivD-281" value="             wiki_history.item_class_scorse(实体分类得分)" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="3190" y="750" width="270" height="180" as="geometry">
             <mxRectangle x="503" y="240" width="277" height="22" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="duncpzKBdpz41MOlvivD-282" value="qid:" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="duncpzKBdpz41MOlvivD-281">
+        <mxCell id="duncpzKBdpz41MOlvivD-282" value="qid:实体qid/Q62000" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="duncpzKBdpz41MOlvivD-281">
           <mxGeometry y="26" width="270" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="duncpzKBdpz41MOlvivD-283" value="classtype:" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="duncpzKBdpz41MOlvivD-281">
+        <mxCell id="duncpzKBdpz41MOlvivD-283" value="classtype:实体类型/Q5" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="duncpzKBdpz41MOlvivD-281">
           <mxGeometry y="52" width="270" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="duncpzKBdpz41MOlvivD-284" value="classify_name:" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="duncpzKBdpz41MOlvivD-281">
+        <mxCell id="duncpzKBdpz41MOlvivD-284" value="classify_name:实体类型名称/人类" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="duncpzKBdpz41MOlvivD-281">
           <mxGeometry y="78" width="270" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="duncpzKBdpz41MOlvivD-285" value="classify_nameen:" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="duncpzKBdpz41MOlvivD-281">
+        <mxCell id="duncpzKBdpz41MOlvivD-285" value="classify_nameen:实体类型名称英文/" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="duncpzKBdpz41MOlvivD-281">
           <mxGeometry y="102" width="270" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="duncpzKBdpz41MOlvivD-286" value="classify_score:" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="duncpzKBdpz41MOlvivD-281">
+        <mxCell id="duncpzKBdpz41MOlvivD-286" value="classify_score:分类得分" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="duncpzKBdpz41MOlvivD-281">
           <mxGeometry y="126" width="270" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="duncpzKBdpz41MOlvivD-287" value="classify_count:数据总量" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="duncpzKBdpz41MOlvivD-281">
+        <mxCell id="duncpzKBdpz41MOlvivD-287" value="classify_count:含有核心属性总数" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="duncpzKBdpz41MOlvivD-281">
           <mxGeometry y="150" width="270" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="duncpzKBdpz41MOlvivD-297" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="3050" y="770" as="sourcePoint" />
+            <mxPoint x="3180" y="770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="duncpzKBdpz41MOlvivD-298" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="3308" y="727" as="sourcePoint" />
+            <mxPoint x="3308" y="747" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="3308" y="747" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
