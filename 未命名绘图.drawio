@@ -1,16 +1,16 @@
-<mxfile host="app.diagrams.net" modified="2023-06-02T07:22:11.795Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="Q_Xkqy7xyJtdtowZY7V3" version="21.3.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-02T07:37:42.081Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="A2A6oHlh7A6Lpb-KcTsg" version="21.3.5" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1366" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1147" dy="637" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="duncpzKBdpz41MOlvivD-23" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;wiki&amp;nbsp; &amp;nbsp;数据源处理&lt;br&gt;&lt;/font&gt;" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="30" y="80" width="439" height="3170" as="geometry">
+          <mxGeometry x="30" y="80" width="400" height="3170" as="geometry">
             <mxRectangle x="30" y="295" width="70" height="270" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="duncpzKBdpz41MOlvivD-24" value="wikidata数据来源" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="duncpzKBdpz41MOlvivD-23">
-          <mxGeometry x="39" y="20" width="370" height="190" as="geometry">
+          <mxGeometry x="22" y="20" width="368" height="190" as="geometry">
             <mxRectangle x="70" y="64" width="140" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -33,7 +33,7 @@
           <mxGeometry x="-1" y="109" width="361" height="26" as="geometry" />
         </mxCell>
         <mxCell id="duncpzKBdpz41MOlvivD-36" value="dbpedia数据来源" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="duncpzKBdpz41MOlvivD-23">
-          <mxGeometry x="39" y="1050" width="371" height="1600" as="geometry">
+          <mxGeometry x="23" y="1050" width="377" height="1600" as="geometry">
             <mxRectangle x="70" y="64" width="140" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -49,19 +49,13 @@
         <mxCell id="duncpzKBdpz41MOlvivD-40" value="数据处理程序:[5-2]dbpedia_分类表生成_pool.py" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="duncpzKBdpz41MOlvivD-36">
           <mxGeometry y="30" width="340" height="28" as="geometry" />
         </mxCell>
-        <mxCell id="duncpzKBdpz41MOlvivD-319" value="" style="endArrow=none;html=1;rounded=0;exitX=-0.007;exitY=1.027;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="duncpzKBdpz41MOlvivD-36">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-0.40000000000009095" y="106.702" as="sourcePoint" />
-            <mxPoint x="372" y="105" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="duncpzKBdpz41MOlvivD-320" value="数据名称:属性三元组表" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="duncpzKBdpz41MOlvivD-36">
           <mxGeometry x="1" y="106" width="200" height="21" as="geometry" />
         </mxCell>
         <mxCell id="duncpzKBdpz41MOlvivD-321" value="" style="endArrow=none;html=1;rounded=0;exitX=-0.007;exitY=1.027;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="duncpzKBdpz41MOlvivD-36">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint y="242" as="sourcePoint" />
-            <mxPoint x="372" y="240" as="targetPoint" />
+            <mxPoint x="367" y="242" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="duncpzKBdpz41MOlvivD-323" value="下载相对路径: dbpedia » wikidata » ontology-subclassof" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="duncpzKBdpz41MOlvivD-36">
@@ -75,14 +69,14 @@
         </mxCell>
         <mxCell id="duncpzKBdpz41MOlvivD-326" value="" style="endArrow=none;html=1;rounded=0;exitX=-0.007;exitY=1.027;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="duncpzKBdpz41MOlvivD-36">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1" y="174" as="sourcePoint" />
-            <mxPoint x="373" y="172" as="targetPoint" />
+            <mxPoint x="3" y="176" as="sourcePoint" />
+            <mxPoint x="369" y="176" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="duncpzKBdpz41MOlvivD-327" value="" style="endArrow=none;html=1;rounded=0;exitX=-0.007;exitY=1.027;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="duncpzKBdpz41MOlvivD-36">
+        <mxCell id="duncpzKBdpz41MOlvivD-327" value="" style="endArrow=none;html=1;rounded=0;exitX=-0.007;exitY=1.027;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.983;entryY=0.931;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="duncpzKBdpz41MOlvivD-36">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint y="313" as="sourcePoint" />
-            <mxPoint x="372" y="311" as="targetPoint" />
+            <mxPoint x="1" y="313" as="sourcePoint" />
+            <mxPoint x="365.71000000000004" y="312.20600000000013" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="duncpzKBdpz41MOlvivD-382" value="数据存储目录:db_data/long-abstracts_lang=zh.ttl.bz2" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="duncpzKBdpz41MOlvivD-36">
@@ -98,13 +92,79 @@
           <mxGeometry x="-1" y="76" width="361" height="26" as="geometry" />
         </mxCell>
         <mxCell id="duncpzKBdpz41MOlvivD-417" value="下载相对路径:dbpedia » wikidata » instance-types/transitive" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="duncpzKBdpz41MOlvivD-36">
-          <mxGeometry x="1" y="473" width="349" height="21" as="geometry" />
+          <mxGeometry x="2" y="473" width="349" height="21" as="geometry" />
         </mxCell>
         <mxCell id="duncpzKBdpz41MOlvivD-418" value="下载相对路径:dbpedia » mappings » instance-types/transitive" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="duncpzKBdpz41MOlvivD-36">
           <mxGeometry x="1" y="1404" width="350" height="21" as="geometry" />
         </mxCell>
+        <mxCell id="duncpzKBdpz41MOlvivD-341" value="" style="endArrow=none;html=1;rounded=0;exitX=-0.007;exitY=1.027;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="duncpzKBdpz41MOlvivD-36">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2" y="520" as="sourcePoint" />
+            <mxPoint x="367" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="duncpzKBdpz41MOlvivD-340" value=" 数据名称:Qid实体类型表,一个实体对应多个分类(不全,没用上)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="duncpzKBdpz41MOlvivD-36">
+          <mxGeometry x="-1" y="452" width="308" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="duncpzKBdpz41MOlvivD-339" value="数据存储目录:db_data/instance-types_transitive.ttl.bz2" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="duncpzKBdpz41MOlvivD-36">
+          <mxGeometry x="2" y="494" width="318" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="duncpzKBdpz41MOlvivD-364" value="" style="endArrow=none;html=1;rounded=0;exitX=-0.007;exitY=1.027;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="duncpzKBdpz41MOlvivD-36">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1" y="675" as="sourcePoint" />
+            <mxPoint x="367" y="675" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="duncpzKBdpz41MOlvivD-363" value="" style="endArrow=none;html=1;rounded=0;exitX=-0.007;exitY=1.027;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="duncpzKBdpz41MOlvivD-36">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1" y="750" as="sourcePoint" />
+            <mxPoint x="367" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="duncpzKBdpz41MOlvivD-365" value="数据名称:Qid实体类型表,一个实体对应多个分类(不全,没用上)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="duncpzKBdpz41MOlvivD-36">
+          <mxGeometry x="7" y="679" width="308" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="duncpzKBdpz41MOlvivD-366" value="下载相对路径:dbpedia » wikidata » instance-types/specific" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="duncpzKBdpz41MOlvivD-36">
+          <mxGeometry x="5" y="700" width="349" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="duncpzKBdpz41MOlvivD-362" value="数据存储目录:db_data/instance-types_transitive.ttl.bz2" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="duncpzKBdpz41MOlvivD-36">
+          <mxGeometry x="7" y="721" width="370" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="duncpzKBdpz41MOlvivD-379" value="数据名称:实体类型表,一个实体对应多个分类" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="duncpzKBdpz41MOlvivD-36">
+          <mxGeometry x="1" y="934" width="308" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="duncpzKBdpz41MOlvivD-380" value="下载地址:dbpedia » text » short-abstracts/long-abstracts" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="duncpzKBdpz41MOlvivD-36">
+          <mxGeometry x="0.5" y="955" width="349" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="duncpzKBdpz41MOlvivD-376" value="数据存储目录:db_data/long-abstracts_lang=en.ttl.bz2" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="duncpzKBdpz41MOlvivD-36">
+          <mxGeometry x="2" y="976" width="370" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="duncpzKBdpz41MOlvivD-377" value="" style="endArrow=none;html=1;rounded=0;exitX=-0.007;exitY=1.027;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=1.008;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="duncpzKBdpz41MOlvivD-36" target="duncpzKBdpz41MOlvivD-384">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1" y="1076" as="sourcePoint" />
+            <mxPoint x="351" y="1076" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="181" y="1076" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="duncpzKBdpz41MOlvivD-378" value="" style="endArrow=none;html=1;rounded=0;exitX=-0.007;exitY=1.027;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="duncpzKBdpz41MOlvivD-36">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="5" y="934" as="sourcePoint" />
+            <mxPoint x="377" y="934" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="duncpzKBdpz41MOlvivD-389" value="下载相对路径:dbpedia » mappings » instance-types/specific" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="duncpzKBdpz41MOlvivD-36">
+          <mxGeometry x="-0.5" y="1189" width="350" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="duncpzKBdpz41MOlvivD-401" value="数据名称:实体类型表,一个实体对应多个分类" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="duncpzKBdpz41MOlvivD-36">
+          <mxGeometry x="7" y="1380" width="309" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="duncpzKBdpz41MOlvivD-398" value="数据存储目录:db_data/instance-types_lang=en_transitive.ttl.bz2" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="duncpzKBdpz41MOlvivD-36">
+          <mxGeometry x="7" y="1425" width="351" height="25" as="geometry" />
+        </mxCell>
         <mxCell id="duncpzKBdpz41MOlvivD-302" value="wikipedia数据来源" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="duncpzKBdpz41MOlvivD-23">
-          <mxGeometry x="39" y="2766" width="400" height="224" as="geometry">
+          <mxGeometry x="24" y="2766" width="376" height="224" as="geometry">
             <mxRectangle x="70" y="64" width="140" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -115,19 +175,19 @@
           <mxGeometry y="55" width="200" height="26" as="geometry" />
         </mxCell>
         <mxCell id="duncpzKBdpz41MOlvivD-305" value="数据存储目录:/wikipediadata/enwiki-20230501-pages-articles-multistream.xml.bz2" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="duncpzKBdpz41MOlvivD-302">
-          <mxGeometry y="83" width="400" height="26" as="geometry" />
+          <mxGeometry y="83" width="350" height="26" as="geometry" />
         </mxCell>
         <mxCell id="duncpzKBdpz41MOlvivD-306" value="数据处理程序:[7-1]wikipedia_0517.py" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="duncpzKBdpz41MOlvivD-302">
-          <mxGeometry y="112" width="380" height="28" as="geometry" />
+          <mxGeometry y="112" width="350" height="28" as="geometry" />
         </mxCell>
         <mxCell id="duncpzKBdpz41MOlvivD-435" value="下载程序入口:download_pediadata(proxies, dump_url, files, md5sumsref)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="duncpzKBdpz41MOlvivD-302">
-          <mxGeometry x="-1" y="140" width="380" height="28" as="geometry" />
+          <mxGeometry x="-1" y="140" width="351" height="28" as="geometry" />
         </mxCell>
         <mxCell id="duncpzKBdpz41MOlvivD-473" value="入库程序入口:WikiPageHadle(70)  " style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="duncpzKBdpz41MOlvivD-302">
           <mxGeometry y="168" width="380" height="28" as="geometry" />
         </mxCell>
         <mxCell id="duncpzKBdpz41MOlvivD-42" value="                 wiki_history.wiki_20230302(数据表)" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="503" y="240" width="277" height="740" as="geometry">
+          <mxGeometry x="503" y="240" width="277" height="810" as="geometry">
             <mxRectangle x="503" y="240" width="277" height="22" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -172,7 +232,7 @@
         </mxCell>
         <mxCell id="duncpzKBdpz41MOlvivD-51" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="382" y="251.18032786885237" as="sourcePoint" />
+            <mxPoint x="470" y="250" as="sourcePoint" />
             <mxPoint x="502" y="250" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -195,7 +255,7 @@
         </mxCell>
         <mxCell id="duncpzKBdpz41MOlvivD-62" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="382" y="250" as="sourcePoint" />
+            <mxPoint x="470" y="90" as="sourcePoint" />
             <mxPoint x="502" y="90" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -332,7 +392,7 @@
           <mxGeometry y="87" width="370" height="28" as="geometry" />
         </mxCell>
         <mxCell id="duncpzKBdpz41MOlvivD-419" value="wikidata,wikipedia关联表生成" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="duncpzKBdpz41MOlvivD-137">
-          <mxGeometry x="38" y="939" width="370" height="140" as="geometry">
+          <mxGeometry x="38" y="897" width="370" height="140" as="geometry">
             <mxRectangle x="30" y="20" width="140" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -754,8 +814,8 @@
         </mxCell>
         <mxCell id="duncpzKBdpz41MOlvivD-322" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=-0.005;entryY=0.749;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="440" y="1266" as="sourcePoint" />
-            <mxPoint x="502.06500000000005" y="1265.9759999999999" as="targetPoint" />
+            <mxPoint x="430" y="1266" as="sourcePoint" />
+            <mxPoint x="492.06500000000005" y="1265.9759999999999" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="duncpzKBdpz41MOlvivD-328" value="                 wiki_history.db_wiki_subclassof(类层级关系)&#xa;" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -786,26 +846,14 @@
         </mxCell>
         <mxCell id="duncpzKBdpz41MOlvivD-336" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=-0.005;entryY=0.749;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="440" y="1400" as="sourcePoint" />
-            <mxPoint x="502" y="1400" as="targetPoint" />
+            <mxPoint x="430" y="1400" as="sourcePoint" />
+            <mxPoint x="492" y="1400" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="duncpzKBdpz41MOlvivD-337" value="" style="endArrow=none;html=1;rounded=0;exitX=-0.007;exitY=1.027;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="69" y="1579" as="sourcePoint" />
-            <mxPoint x="441" y="1577" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="duncpzKBdpz41MOlvivD-339" value="数据存储目录:db_data/instance-types_transitive.ttl.bz2" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="71" y="1625" width="370" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="duncpzKBdpz41MOlvivD-340" value="数据名称:Qid实体类型表,一个实体对应多个分类(不全,没用上)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="72" y="1583" width="308" height="21" as="geometry" />
-        </mxCell>
-        <mxCell id="duncpzKBdpz41MOlvivD-341" value="" style="endArrow=none;html=1;rounded=0;exitX=-0.007;exitY=1.027;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="69" y="1650" as="sourcePoint" />
-            <mxPoint x="441" y="1648" as="targetPoint" />
+            <mxPoint x="54" y="1579" as="sourcePoint" />
+            <mxPoint x="420" y="1580" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="duncpzKBdpz41MOlvivD-342" value="                                       wiki_history.db_instance_types_en_transitive(实体的类型表)&#xa;" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -836,8 +884,8 @@
         </mxCell>
         <mxCell id="duncpzKBdpz41MOlvivD-350" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=-0.005;entryY=0.749;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="440" y="1614.16" as="sourcePoint" />
-            <mxPoint x="502" y="1614.16" as="targetPoint" />
+            <mxPoint x="430" y="1614.16" as="sourcePoint" />
+            <mxPoint x="492" y="1614.16" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="duncpzKBdpz41MOlvivD-351" value="                                       wiki_history.db_instance_types_en_specific(实体最细分类表)&#xa;" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -866,31 +914,10 @@
         <mxCell id="duncpzKBdpz41MOlvivD-358" value="object_src:http://dbpedia.org/ontology/School" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="duncpzKBdpz41MOlvivD-351">
           <mxGeometry y="174" width="187" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="duncpzKBdpz41MOlvivD-362" value="数据存储目录:db_data/instance-types_transitive.ttl.bz2" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="70" y="1851" width="370" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="duncpzKBdpz41MOlvivD-363" value="" style="endArrow=none;html=1;rounded=0;exitX=-0.007;exitY=1.027;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="68" y="1876" as="sourcePoint" />
-            <mxPoint x="440" y="1874" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="duncpzKBdpz41MOlvivD-364" value="" style="endArrow=none;html=1;rounded=0;exitX=-0.007;exitY=1.027;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="69" y="1805" as="sourcePoint" />
-            <mxPoint x="441" y="1803" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="duncpzKBdpz41MOlvivD-365" value="数据名称:Qid实体类型表,一个实体对应多个分类(不全,没用上)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="72" y="1809" width="308" height="21" as="geometry" />
-        </mxCell>
-        <mxCell id="duncpzKBdpz41MOlvivD-366" value="下载相对路径:dbpedia » wikidata » instance-types/specific" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="71" y="1830" width="349" height="21" as="geometry" />
-        </mxCell>
         <mxCell id="duncpzKBdpz41MOlvivD-367" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=-0.005;entryY=0.749;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="440" y="1830" as="sourcePoint" />
-            <mxPoint x="502" y="1830" as="targetPoint" />
+            <mxPoint x="430" y="1830" as="sourcePoint" />
+            <mxPoint x="492" y="1830" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="duncpzKBdpz41MOlvivD-368" value="                                       wiki_history.db_long_abstracts_lang_en(长短中英文描述数据)&#xa;" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -919,56 +946,29 @@
         <mxCell id="duncpzKBdpz41MOlvivD-375" value="object_src:Joseph Robinette Biden Jr. (/ˈbaɪdən/; born November 20, 1942) is an American politician who is the 46th and current president of the United States. A member of the Democratic Party, he previously served as the 47th vice president from 2009 to 2017 under President Barack Obama, and represented Delaware in the United States Senate from 1973 to 2009. Biden was born and raised in Scranton, Pennsylvania, and moved with his family to Delaware in 1953 when he was ten years old. He studied at the University of Delaware before earning his law degree from Syracuse University. He was elected to the New Castle County Council in 1970 and became the sixth-youngest senator in U.S. history after he was elected to the United States Senate from Delaware in 1972, at age 29. Biden was the chair or ranking member of the Senate Foreign Relations Committee for 12 years. He also chaired the Senate Judiciary Committee from 1987 to 1995; led the effort to pass the Violent Crime Control and Law Enforcement Act and the Violence Against Women Act; and oversaw six U.S. Supreme Court confirmation hearings, including the contentious hearings for Robert Bork and Clarence Thomas. Biden ran unsuccessfully for the Democratic presidential nomination in 1988 and 2008, before becoming Obama&#39;s vice president after they won the 2008 presidential election. During his two terms as vice president, Biden frequently represented the administration in negotiations with congressional Republicans and was a close counselor to President Obama. Biden and his running mate, Kamala Harris, defeated incumbent Donald Trump in the 2020 presidential election. Upon inauguration, he became the oldest president in U.S. history and the first to have a female vice president. Biden signed the American Rescue Plan Act to help the U.S. recover from the COVID-19 pandemic and subsequent recession. He proposed the American Jobs Plan, aspects of which were incorporated into the bipartisan Infrastructure Investment and Jobs Act. He proposed the American Families Plan, which was merged with other aspects of the American Jobs Plan into the proposed Build Back Better Act. After facing opposition in the Senate, the Build Back Better Act&#39;s size was reduced and it was comprehensively reworked into the Inflation Reduction Act of 2022, covering deficit reduction, climate change, healthcare, and tax reform. Biden appointed Ketanji Brown Jackson to the Supreme Court. In foreign policy, he restored the U.S. into the Paris Agreement on climate change. He completed the withdrawal of U.S. troops from Afghanistan, during which the Afghan government collapsed and the Taliban seized control. He responded to the 2022 Russian invasion of Ukraine by imposing sanctions on Russia and authorizing foreign aid and weapons shipments to Ukraine." style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="duncpzKBdpz41MOlvivD-368">
           <mxGeometry y="174" width="187" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="duncpzKBdpz41MOlvivD-376" value="数据存储目录:db_data/long-abstracts_lang=en.ttl.bz2" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="70" y="2106" width="370" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="duncpzKBdpz41MOlvivD-377" value="" style="endArrow=none;html=1;rounded=0;exitX=-0.007;exitY=1.027;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="68" y="2206" as="sourcePoint" />
-            <mxPoint x="440" y="2204" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="250" y="2206" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="duncpzKBdpz41MOlvivD-378" value="" style="endArrow=none;html=1;rounded=0;exitX=-0.007;exitY=1.027;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="69" y="2060" as="sourcePoint" />
-            <mxPoint x="441" y="2058" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="duncpzKBdpz41MOlvivD-379" value="数据名称:实体类型表,一个实体对应多个分类" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="72" y="2064" width="308" height="21" as="geometry" />
-        </mxCell>
-        <mxCell id="duncpzKBdpz41MOlvivD-380" value="下载地址:dbpedia » text » short-abstracts/long-abstracts" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="71" y="2085" width="349" height="21" as="geometry" />
-        </mxCell>
         <mxCell id="duncpzKBdpz41MOlvivD-381" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=-0.005;entryY=0.749;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="440" y="2064" as="sourcePoint" />
-            <mxPoint x="502" y="2064" as="targetPoint" />
+            <mxPoint x="430" y="2089" as="sourcePoint" />
+            <mxPoint x="492" y="2089" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="duncpzKBdpz41MOlvivD-385" value="数据存储目录:db_data/instance-types_lang=en_specific.ttl.bz2" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="69" y="2342" width="370" height="26" as="geometry" />
+          <mxGeometry x="55" y="2342" width="370" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="duncpzKBdpz41MOlvivD-386" value="" style="endArrow=none;html=1;rounded=0;exitX=-0.007;exitY=1.027;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="duncpzKBdpz41MOlvivD-386" value="" style="endArrow=none;html=1;rounded=0;exitX=-0.007;exitY=1.027;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.991;entryY=0.992;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="duncpzKBdpz41MOlvivD-385">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="69" y="2367" as="sourcePoint" />
-            <mxPoint x="441" y="2365" as="targetPoint" />
+            <mxPoint x="53" y="2367" as="sourcePoint" />
+            <mxPoint x="404" y="2367" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="duncpzKBdpz41MOlvivD-387" value="" style="endArrow=none;html=1;rounded=0;exitX=-0.007;exitY=1.027;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="68" y="2296" as="sourcePoint" />
-            <mxPoint x="440" y="2294" as="targetPoint" />
+            <mxPoint x="53" y="2302" as="sourcePoint" />
+            <mxPoint x="425" y="2300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="duncpzKBdpz41MOlvivD-388" value="数据名称:实体类型表,一个实体对应多个分类" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="71" y="2300" width="308" height="21" as="geometry" />
-        </mxCell>
-        <mxCell id="duncpzKBdpz41MOlvivD-389" value="下载相对路径:dbpedia » mappings » instance-types/specific" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="70" y="2323" width="350" height="21" as="geometry" />
+          <mxGeometry x="53" y="2300" width="308" height="21" as="geometry" />
         </mxCell>
         <mxCell id="duncpzKBdpz41MOlvivD-390" value="                                       wiki_history.db_dbpedia_type_specific_en(实体最细分类表)&#xa;" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="504" y="2280" width="187" height="200" as="geometry">
@@ -996,23 +996,17 @@
         <mxCell id="duncpzKBdpz41MOlvivD-397" value="object_src:/http://dbpedia.org/ontology/Band" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="duncpzKBdpz41MOlvivD-390">
           <mxGeometry y="174" width="187" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="duncpzKBdpz41MOlvivD-398" value="数据存储目录:db_data/instance-types_lang=en_transitive.ttl.bz2" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="69" y="2555" width="370" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="duncpzKBdpz41MOlvivD-399" value="" style="endArrow=none;html=1;rounded=0;exitX=-0.007;exitY=1.027;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="duncpzKBdpz41MOlvivD-399" value="" style="endArrow=none;html=1;rounded=0;exitX=-0.006;exitY=1.056;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="69" y="2580" as="sourcePoint" />
-            <mxPoint x="441" y="2578" as="targetPoint" />
+            <mxPoint x="53.894000000000005" y="2581.4" as="sourcePoint" />
+            <mxPoint x="430" y="2580" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="duncpzKBdpz41MOlvivD-400" value="" style="endArrow=none;html=1;rounded=0;exitX=-0.007;exitY=1.027;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="68" y="2509" as="sourcePoint" />
-            <mxPoint x="440" y="2507" as="targetPoint" />
+            <mxPoint x="54" y="2509" as="sourcePoint" />
+            <mxPoint x="430" y="2509" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="duncpzKBdpz41MOlvivD-401" value="数据名称:实体类型表,一个实体对应多个分类" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="71" y="2513" width="308" height="21" as="geometry" />
         </mxCell>
         <mxCell id="duncpzKBdpz41MOlvivD-403" value="                                       wiki_history.db_dbpedia_type_transitive_en(实体的类型表)&#xa;" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="504" y="2507" width="187" height="200" as="geometry">
@@ -1042,14 +1036,17 @@
         </mxCell>
         <mxCell id="duncpzKBdpz41MOlvivD-411" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=-0.005;entryY=0.749;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="440" y="2321" as="sourcePoint" />
-            <mxPoint x="502" y="2321" as="targetPoint" />
+            <mxPoint x="430" y="2321" as="sourcePoint" />
+            <mxPoint x="492" y="2321" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="duncpzKBdpz41MOlvivD-412" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=-0.005;entryY=0.749;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="440" y="2544.16" as="sourcePoint" />
-            <mxPoint x="502" y="2544.16" as="targetPoint" />
+            <mxPoint x="430" y="2544.16" as="sourcePoint" />
+            <mxPoint x="492" y="2544.16" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="470" y="2544" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="duncpzKBdpz41MOlvivD-423" value="             wiki_history.wiki_relation_title(wikidata-wikipedia关系表)" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -1075,12 +1072,6 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="duncpzKBdpz41MOlvivD-434" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="780" y="900" as="sourcePoint" />
-            <mxPoint x="1700" y="1040" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="duncpzKBdpz41MOlvivD-436" value="      wiki_history.pedia_page_v2（pedia拆解表）" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="508" y="2840" width="182" height="260" as="geometry">
             <mxRectangle x="1350" y="102" width="277" height="22" as="alternateBounds" />
@@ -1088,12 +1079,6 @@
         </mxCell>
         <mxCell id="duncpzKBdpz41MOlvivD-437" value="_id:页面的一个数字id/51" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="duncpzKBdpz41MOlvivD-436">
           <mxGeometry y="26" width="182" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="duncpzKBdpz41MOlvivD-447" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=1.008;exitY=-0.038;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="duncpzKBdpz41MOlvivD-436" source="duncpzKBdpz41MOlvivD-305">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-48" y="82" as="sourcePoint" />
-            <mxPoint x="2" y="32" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="duncpzKBdpz41MOlvivD-438" value="page_title:wikipedia的英文名称/AbbeY" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="duncpzKBdpz41MOlvivD-436">
           <mxGeometry y="52" width="182" height="26" as="geometry" />
@@ -1118,12 +1103,6 @@
         </mxCell>
         <mxCell id="duncpzKBdpz41MOlvivD-445" value="infobox_list_tostr:文本解析" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="duncpzKBdpz41MOlvivD-436">
           <mxGeometry y="226" width="182" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="duncpzKBdpz41MOlvivD-446" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=-0.005;entryY=0.749;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="450" y="2667.16" as="sourcePoint" />
-            <mxPoint x="512" y="2667.16" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="duncpzKBdpz41MOlvivD-448" value="      wiki_history.pedia_infobox(infobox拆解表)" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1387" y="2645" width="182" height="140" as="geometry">
@@ -1681,6 +1660,18 @@
               <mxPoint x="2600" y="2710" />
               <mxPoint x="2600" y="2563" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="duncpzKBdpz41MOlvivD-662" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="779" y="1000" as="sourcePoint" />
+            <mxPoint x="1659" y="1010" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="duncpzKBdpz41MOlvivD-666" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="2854.6" as="sourcePoint" />
+            <mxPoint x="500" y="2854.6" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
