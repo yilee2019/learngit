@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-02T01:28:24.330Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="nprWbk_f8Nq6JshRzKv2" version="21.3.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-02T01:30:47.782Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="8z6lWrL1eGEZbyA8g6se" version="21.3.5" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1247" dy="692" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1100,36 +1100,21 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="duncpzKBdpz41MOlvivD-448" value="      wiki_history.pedia_page_v2" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1358" y="2640" width="182" height="260" as="geometry">
+          <mxGeometry x="1365" y="2645" width="182" height="140" as="geometry">
             <mxRectangle x="1350" y="102" width="277" height="22" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="duncpzKBdpz41MOlvivD-449" value="_id:页面的一个数字id/51" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="duncpzKBdpz41MOlvivD-448">
           <mxGeometry y="26" width="182" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="duncpzKBdpz41MOlvivD-451" value="page_title:wikipedia的英文名称/AbbeY" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="duncpzKBdpz41MOlvivD-448">
+        <mxCell id="duncpzKBdpz41MOlvivD-456" value="infobox:对应信息框原文" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="duncpzKBdpz41MOlvivD-448">
           <mxGeometry y="52" width="182" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="duncpzKBdpz41MOlvivD-452" value="redirect:部分属于跳转的名称" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="duncpzKBdpz41MOlvivD-448">
-          <mxGeometry y="78" width="182" height="24" as="geometry" />
-        </mxCell>
-        <mxCell id="duncpzKBdpz41MOlvivD-453" value="text:页面原始全量文本" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="duncpzKBdpz41MOlvivD-448">
-          <mxGeometry y="102" width="182" height="24" as="geometry" />
-        </mxCell>
-        <mxCell id="duncpzKBdpz41MOlvivD-454" value="timestamp:页面修改时间撮" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="duncpzKBdpz41MOlvivD-448">
-          <mxGeometry y="126" width="182" height="24" as="geometry" />
-        </mxCell>
-        <mxCell id="duncpzKBdpz41MOlvivD-455" value="infobox_name:infobox类别名称" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="duncpzKBdpz41MOlvivD-448">
-          <mxGeometry y="150" width="182" height="24" as="geometry" />
-        </mxCell>
-        <mxCell id="duncpzKBdpz41MOlvivD-456" value="infobox:对应信息框原文" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="duncpzKBdpz41MOlvivD-448">
-          <mxGeometry y="174" width="182" height="26" as="geometry" />
-        </mxCell>
         <mxCell id="duncpzKBdpz41MOlvivD-457" value="infobox_list:带结构的解析" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="duncpzKBdpz41MOlvivD-448">
-          <mxGeometry y="200" width="182" height="26" as="geometry" />
+          <mxGeometry y="78" width="182" height="26" as="geometry" />
         </mxCell>
         <mxCell id="duncpzKBdpz41MOlvivD-458" value="infobox_list_tostr:文本解析" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="duncpzKBdpz41MOlvivD-448">
-          <mxGeometry y="226" width="182" height="26" as="geometry" />
+          <mxGeometry y="104" width="182" height="26" as="geometry" />
         </mxCell>
         <mxCell id="duncpzKBdpz41MOlvivD-459" value="&lt;span style=&quot;font-size: 24px;&quot;&gt;wikipedia&amp;nbsp; 数据加工清洗&lt;/span&gt;" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="829" y="2650" width="402" height="410" as="geometry">
@@ -1155,6 +1140,12 @@
         </mxCell>
         <mxCell id="duncpzKBdpz41MOlvivD-472" value="程序入口:WikiPedia_detail_infobox()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="860" y="2725" width="380" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="duncpzKBdpz41MOlvivD-475" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=-0.01;entryY=0.485;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1230" y="2661" as="sourcePoint" />
+            <mxPoint x="1365" y="2660" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
