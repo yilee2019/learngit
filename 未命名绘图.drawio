@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-02T02:58:47.108Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="UVigBS2kbnlrWTq5-qYh" version="21.3.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-02T05:21:47.160Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="7wwbiun-SrSVBxIEs2_Y" version="21.3.5" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1434" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="956" dy="531" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -1161,7 +1161,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="duncpzKBdpz41MOlvivD-488" value="数据来源:wiki_relation_title(wikidata-wikipedia关系表)&#xa;               pedia_page_v2  实体属性表" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="duncpzKBdpz41MOlvivD-485">
-          <mxGeometry y="84" width="370" height="28" as="geometry" />
+          <mxGeometry y="84" width="370" height="46" as="geometry" />
         </mxCell>
         <mxCell id="duncpzKBdpz41MOlvivD-496" value="数据处理程序:[7-1]wikipedia_0517.py" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="duncpzKBdpz41MOlvivD-485">
           <mxGeometry x="4" y="28" width="380" height="28" as="geometry" />
@@ -1381,7 +1381,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="duncpzKBdpz41MOlvivD-570" value="&lt;span style=&quot;font-size: 24px;&quot;&gt;应用表生成&lt;br&gt;&lt;/span&gt;" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="2638" y="1588" width="412" height="350" as="geometry">
+          <mxGeometry x="2638" y="2228" width="412" height="350" as="geometry">
             <mxRectangle x="1674" y="90" width="70" height="270" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -1397,7 +1397,7 @@
           <mxGeometry x="4" y="28" width="380" height="28" as="geometry" />
         </mxCell>
         <mxCell id="duncpzKBdpz41MOlvivD-575" value="             wiki_history.lable_instance(实体标签表)" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="3199" y="1470" width="251" height="330" as="geometry">
+          <mxGeometry x="3199" y="2110" width="251" height="330" as="geometry">
             <mxRectangle x="503" y="240" width="277" height="22" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -1441,7 +1441,7 @@
           <mxGeometry y="308" width="251" height="22" as="geometry" />
         </mxCell>
         <mxCell id="duncpzKBdpz41MOlvivD-589" value="             wiki_history.lable_instance_sumrecord(标签统计记录表)" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="3199" y="1851" width="231" height="159" as="geometry">
+          <mxGeometry x="3199" y="2491" width="231" height="159" as="geometry">
             <mxRectangle x="503" y="240" width="277" height="22" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -1460,23 +1460,76 @@
         <mxCell id="duncpzKBdpz41MOlvivD-594" value="其他：version，insert_time,  is_del" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="duncpzKBdpz41MOlvivD-589">
           <mxGeometry y="126" width="231" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="duncpzKBdpz41MOlvivD-603" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="3680" y="1810" as="sourcePoint" />
-            <mxPoint x="3730" y="1760" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="duncpzKBdpz41MOlvivD-604" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.008;entryY=0.192;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="3050" y="1610" as="sourcePoint" />
-            <mxPoint x="3196.992" y="1610.9920000000002" as="targetPoint" />
+            <mxPoint x="3050" y="2250" as="sourcePoint" />
+            <mxPoint x="3196.992" y="2250.992" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="duncpzKBdpz41MOlvivD-605" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.008;entryY=0.192;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="3050" y="1870" as="sourcePoint" />
-            <mxPoint x="3196.992" y="1870.9920000000002" as="targetPoint" />
+            <mxPoint x="3050" y="2510" as="sourcePoint" />
+            <mxPoint x="3196.992" y="2510.992" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="duncpzKBdpz41MOlvivD-606" value="             wiki_history.db_wikitype_v2(实体分类表)" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#FFCCCC;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="3199" y="1510" width="271" height="462" as="geometry">
+            <mxRectangle x="503" y="240" width="277" height="22" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="duncpzKBdpz41MOlvivD-607" value="q_id:id/例如Q6279" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="duncpzKBdpz41MOlvivD-606">
+          <mxGeometry y="26" width="271" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="duncpzKBdpz41MOlvivD-608" value="instance_id:wikidata的分类id/Q5" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="duncpzKBdpz41MOlvivD-606">
+          <mxGeometry y="52" width="271" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="duncpzKBdpz41MOlvivD-609" value="instance_str:分类英文名/human" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="duncpzKBdpz41MOlvivD-606">
+          <mxGeometry y="78" width="271" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="duncpzKBdpz41MOlvivD-610" value="title_en:英文名称/Joe Biden" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="duncpzKBdpz41MOlvivD-606">
+          <mxGeometry y="102" width="271" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="duncpzKBdpz41MOlvivD-611" value="title_zh:中文名称/乔·拜登" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="duncpzKBdpz41MOlvivD-606">
+          <mxGeometry y="126" width="271" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="duncpzKBdpz41MOlvivD-612" value="dbpedia_typelist:dbpedia分类列表/Politician,Person,Animal,Eukaryote,Species,owl#Thing" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="duncpzKBdpz41MOlvivD-606">
+          <mxGeometry y="150" width="271" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="duncpzKBdpz41MOlvivD-613" value="wp_infobox:infobox信息框名称/Infobox officeholder" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="duncpzKBdpz41MOlvivD-606">
+          <mxGeometry y="174" width="271" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="duncpzKBdpz41MOlvivD-614" value="country:国家id/Q30" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="duncpzKBdpz41MOlvivD-606">
+          <mxGeometry y="198" width="271" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="duncpzKBdpz41MOlvivD-615" value="occupation: /Q40348,Q1622272,Q15686806,Q115088092,Q82955" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="duncpzKBdpz41MOlvivD-606">
+          <mxGeometry y="222" width="271" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="duncpzKBdpz41MOlvivD-616" value="subclass_of:是什么的子类" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="duncpzKBdpz41MOlvivD-606">
+          <mxGeometry y="246" width="271" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="duncpzKBdpz41MOlvivD-617" value="part_of:是什么的一部分" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="duncpzKBdpz41MOlvivD-606">
+          <mxGeometry y="270" width="271" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="duncpzKBdpz41MOlvivD-618" value="all_alas:所有的别名/جوئي بائيڊن,ဘိုင်ဒင်,Joey Biden,Biden,جو آر بایدن,Τζόζεφ Ρόμπινετ Μπάιντεν τζιούνιορ,جوزيف روبينيت بايدن الابن,Joseph Robinette Biden,Joseph R. Biden, Jr.,JRB, Jr.,拜登,Amerikaanse president Biden,Joe R. Biden Jr.,Cosef Bayden,President Joe Biden,جۆزێف بایدن جۆنیۆر,بايدن,Joseph Robinette Biden, Jr.,جوزف بائيڊن,Joseph Robinette &quot;Joe&quot; Biden, Jr.,جوزيف بايدن,بایدن,Joseph Robinette Biden Junior,乔·拜登,President Joseph Robinette Biden Jr.,جۆو بایدن,ጆሴፍ ሮቢነት ባይደን ጁንየር,جوزف رابینت بایدن,Džozef Robinett Baiden,President Joseph Biden,JRB,Joseph Robinette &quot;Joe&quot; Biden Jr.,ໂຈເຊຟ ໂຣບິເນຕຕ໌ ໄບເດີນ ຈູນຽຣ໌,Joe Biden Jr.,POTUS 46,Joseph Robinette ”Joe” Biden, Jr.,祖·拜登,جوزف آر بائيڊن,Жозеф Байден,Жо Байден,President Joseph Biden Jr.,Джозеф Робинетт Байден,โจเซฟ โรบิเนตต์ ไบเดิน จูเนียร์,president Biden,ጆሴፍ ባይደን ጁንየር,Džozef Robinett Baiden-nrmb.,Джозеф Байден,Jozefo Biden,Джозэф Рабінэт Байдэн,جۆزێف بایدن,جوزف بيدن,Џьозеф Баиден,Joseph Robinette &quot;Joe&quot; Biden,Joe R. Biden,President Joseph R. Biden,Джо Байдэн,Joe Biden,جوزف بایدن جونیور,Joseph Robinette ”Joe” Biden,Джозеф Робинетт Байден кіші,President Biden,Joseph Robinette Biden Jr.,Iosephus Robinette Biden Iunior,جوزف بایدن,Joe Bidenas,President Joseph R. Biden Jr.,Джозеф Робинетт Байден-мл.,جوزف آر بایدن,Baiden Džo,جوزيف بيدن,Joseph R. Biden ml.,Joseph R. Biden Jr.,Байден, Джо,President Joseph Robinette Biden,Amerika tiŋgbani zuɣulana,Joseph R. Biden,Joseph Biden, Jr.,Baiden Džozef Robinett,白登,جوزيف روبينيت بايدن,Joseph Biden" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="duncpzKBdpz41MOlvivD-606">
+          <mxGeometry y="294" width="271" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="duncpzKBdpz41MOlvivD-619" value="en_alas:英文别名/President Joseph Robinette Biden Jr.,President Joseph Biden Jr.,President Joseph Biden,JRB,Biden,Joseph Robinette Biden,Joseph R. Biden, Jr.,Joseph R. Biden Jr.,Joe Biden Jr.,POTUS 46,President Joseph Robinette Biden,Joe R. Biden Jr.,President Joseph R. Biden,Joe R. Biden,Joseph R. Biden,President Biden,Joseph Robinette Biden Jr.,President Joe Biden,Joseph Biden,President Joseph R. Biden Jr." style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="duncpzKBdpz41MOlvivD-606">
+          <mxGeometry y="318" width="271" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="duncpzKBdpz41MOlvivD-620" value="zh_alas:中文别名/拜登" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="duncpzKBdpz41MOlvivD-606">
+          <mxGeometry y="342" width="271" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="duncpzKBdpz41MOlvivD-621" value="country_name:国家名称/United States of America" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="duncpzKBdpz41MOlvivD-606">
+          <mxGeometry y="366" width="271" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="duncpzKBdpz41MOlvivD-622" value="labels_en:lable英文名/Joe Biden" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="duncpzKBdpz41MOlvivD-606">
+          <mxGeometry y="390" width="271" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="duncpzKBdpz41MOlvivD-623" value="labels_zh:lable中文名/乔·拜登" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="duncpzKBdpz41MOlvivD-606">
+          <mxGeometry y="414" width="271" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="duncpzKBdpz41MOlvivD-624" value="weight:/对应的权重" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="duncpzKBdpz41MOlvivD-606">
+          <mxGeometry y="438" width="271" height="24" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
